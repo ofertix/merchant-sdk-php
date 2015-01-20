@@ -13,8 +13,14 @@
     "require": {
         "php": ">=5.2.0",
         "ext-curl": "*",
-        "paypal/sdk-core-php":"1.5.*"
+        "ofertix/sdk-core-php":"dev-master"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ofertix/sdk-core-php.git"
+        }
+    ],
     "autoload": {
         "classmap": ["lib"]
     }
